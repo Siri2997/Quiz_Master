@@ -16,7 +16,7 @@ MonoBehaviour:
     intial value of 12?
   answers:
   - int num = 12;
-  - int num = "12";
+  - int num = "12" ;
   - int num = 12';
   - int num = '12";
   correctAnswerIndex: 0

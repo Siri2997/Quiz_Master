@@ -12,8 +12,8 @@ public class QuestionSO : ScriptableObject
     public string GetQuestion()
     {
        return question;
-
     }
+   
     public string GetAnswer(int index)
     {
         return answers[index];
@@ -24,13 +24,3 @@ public class QuestionSO : ScriptableObject
         return correctAnswerIndex;
     }
 }
-
-
-//public class Test
-//{
-//    QuestionSO questionSo;
-//    void TestA()
-//    {
-//        string questionText = questionSo.GetQuestion();
-//    }
-//}
